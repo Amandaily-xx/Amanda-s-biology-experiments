@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Enzyme Activity Under Different Conditions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+       .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #00698f;
+        }
+        h1 {
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+       .image-description {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Objective: To test and compare enzyme activity under different conditions using potato, carrot, and onion strips, and to understand the effect of catalase enzyme present in each vegetable on hydrogen peroxide (H₂O₂) breakdown.</h1>
+        <h2>Material: Potato strips, carrot, onion strips; test tubes and rack; H₂O₂ solution (3%); droppers; timer; beaker; safety goggles; 70°C water bath; freezer; 75% ethanol; ruler.</h2>
+        <p>Collect 3 strips each of potato, carrot, and onion (about 3-4 cm in length)</p>
+        <img src="IMG_9117.jpeg" alt="Cut each strips to 3-4cm">
+        <p class="image-description">Cut each strips to 3-4cm</p>
+        <p>Place each strips into the test tubes and test them under different conditions (room temperature, 70℃, frozen, 75% Ethanol)</p>
+        <img src="IMG_9119.jpeg" alt="Place each strips under different conditions">
+        <p class="image-description">Place each strips under different conditions</p>
+        <p>Observe the reaction in each test tube for 10 minutes. Look for the formation of bubbles (which indicates the release of oxygen gas).</p>
+        <img src="IMG_9121.jpeg" alt="Wait for 10 minutes and record the experiment">
+        <p class="image-description">Wait for 10 minutes and record the experiment</p>
+        <p>Measure the height of the foam layer formed in each test tube using a ruler. Record the foam height in millimeters.</p>
+        <img src="IMG_9124.jpeg" alt="Measure the foam height in millimeters.">
+        <p class="image-description">Measure the foam height in millimeters.</p>
+    </div>
+    <footer>
+        Created by Amanda
+    </footer>
+    <script>
+        // Example of interactive JavaScript, here we're just making the footer fixed to the bottom of the viewport when the page is scrolled.
+        window.addEventListener('scroll', function() {
+            var footer = document.querySelector('footer');
+            if (window.scrollY > 200) { // Adjust the value as per your need
+                footer.classList.add('fixed-footer');
+            } else {
+                footer.classList.remove('fixed-footer');
+            }
+        });
+    </script>
+</body>
+</html>
